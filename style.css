@@ -1,0 +1,97 @@
+body {
+  background-color: darkgrey;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.wrapper {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+  height: 3300px;
+  margin: 20px auto;
+  padding: 80px 70px;
+  position: relative;
+  width: 1440px;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  flex: 3;
+  justify-content: space-between;
+  position: absolute;
+  height: 36px;
+  left: 70px;
+  top: 70px;
+  width: 1280px;
+
+}
+
+nav a {
+  color: gray;
+  font-size: 12px;
+  /* font-weight: bold; */
+  text-decoration: none;
+  
+  padding: 0 10px;
+}
+
+nav a:last-child {
+  color: rgb(245, 94, 114);
+}
+
+.nft-top {
+  display: flex;
+  padding-top: 50px;
+}
+
+.nft-top div {
+  flex: 2;
+  padding-top: 20px;
+}
+
+.nft-top img {
+  left: 980px;
+  position: absolute;
+  height: 519px;
+  width: 370px;
+}
+
+.nft-top h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.nft-top p:first-child {
+  color: rgb(245, 94, 114);
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.neveikia {
+  color: gray;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.nft-top button {
+  border-bottom-color: #FF8139;
+  border-top-color: #FF3939;
+  border-left-color: #FF3998;
+  border-right-color:#39FFA0;
+  background-color: white;
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.nft-top a span {
+  display: inline-block;
+  background: #ffff;
+  color: #000000;
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-weight: 550;
+  font-size: 12px;
+}
