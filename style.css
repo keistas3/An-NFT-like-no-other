@@ -187,6 +187,7 @@ nav a:last-child {
   display: flex;
   justify-content: space-between;
   padding-top: 40px;
+  padding-bottom: 100px;
 }
 
 .purple-man-nft {
@@ -331,4 +332,53 @@ nav a:last-child {
   font-weight: 400;
   font-size: 18px;
   line-height: 18px;
+}
+
+.line {
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 0px;
+}
+
+.nft-down {
+  display: flex;
+  padding-top: 50px;
+  height: 519px;
+  width: 1120px;
+}
+
+.nft-down h3 {
+  color: #111111;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 68px;
+}
+
+.nft-down p:first-child {
+  color: rgb(245, 94, 114);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  padding-top: 60px;
+}
+
+.nft-down img {
+  position: absolute;
+  width: 206px;
+  height: 467px;
+  right: 301px;
+  top: 2363px;
+}
+
+.nft-down button {
+  border-bottom-color: #ff8139;
+  border-top-color: #ff3939;
+  border-left-color: #ff3998;
+  border-right-color: #39ffa0;
+  background-color: white;
+  border-radius: 100px;
+  padding: 15px 35px;
+  font-size: 20px;
 }
