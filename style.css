@@ -1,13 +1,12 @@
 body {
   background-color: darkgrey;
   font-family: Arial, Helvetica, sans-serif;
-  
 }
 
 .wrapper {
   background-color: #ffffff;
   border-radius: 16px;
-  box-shadow: box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
   height: 3300px;
   margin: 20px auto;
   padding: 80px 70px;
@@ -29,18 +28,16 @@ header {
 }
 
 header img {
-height: 36px;
-left: 0px;
-top: 10px;
-position: absolute;
-width: 198px;
-
+  height: 36px;
+  left: 0px;
+  top: 10px;
+  position: absolute;
+  width: 198px;
 }
 
 nav a {
   color: gray;
   font-size: 12px;
-  /* font-weight: bold; */
   text-decoration: none;
   padding: 0 10px;
 }
@@ -76,7 +73,6 @@ nav a:last-child {
   font-size: 96px;
   font-weight: 900;
   line-height: 116px;
-  
 }
 
 .nft-top img {
@@ -96,22 +92,123 @@ nav a:last-child {
 }
 
 .nft-top button {
-  border-bottom-color: #FF8139;
-  border-top-color: #FF3939;
-  border-left-color: #FF3998;
-  border-right-color:#39FFA0;
+  border-bottom-color: #ff8139;
+  border-top-color: #ff3939;
+  border-left-color: #ff3998;
+  border-right-color: #39ffa0;
   background-color: white;
   border-radius: 100px;
-  padding: 10px 20px;
+  padding: 15px 35px;
   font-size: 20px;
 }
 
-.nft-top a span {
-  display: inline-block;
-  background: #ffff;
-  color: #000000;
-  padding: 8px 10px;
-  border-radius: 5px;
-  font-weight: 550;
-  font-size: 12px;
+.free-nft {
+  background-image: url(assets/background.svg);
+  background-size: cover;
+  border-radius: 16px;
+  padding: 80px;
+}
+
+.free-nft h3 {
+  /* align-items: flex-end; */
+  color: #111111;
+  /* display: flex; */
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.free-nft p {
+  color: #111111;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.logo1 {
+  position: absolute;
+  width: 216.12px;
+  height: 40.7px;
+  left: 80px;
+  top: 1434.6px;
+}
+
+.logo2 {
+  position: absolute;
+  width: 154.08px;
+  height: 46.46px;
+  left: 402.67px;
+  top: 1431.54px;
+}
+
+.logo3 {
+  position: absolute;
+  width: 132.72px;
+  height: 46.21px;
+  left: 663.3px;
+  top: 1429px;
+}
+
+.logo4 {
+  position: absolute;
+  width: 194.76px;
+  height: 40.7px;
+  left: 902.57px;
+  top: 1434.6px;
+}
+
+.logo5 {
+  position: absolute;
+  width: 156.12px;
+  height: 40.7px;
+  left: 1203.88px;
+  top: 1434.6px;
+}
+
+.super-rare {
+  padding-top: 300px;
+}
+
+.super-rare h3 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.super-rare p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.nft-auction {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.purple-man-nft table {
+  background: #eeeeee;
+  border-radius: 15px;
+  padding: 2px 57px;
+}
+
+.beige-nft table {
+  background: #eeeeee;
+  border-radius: 15px;
+  padding: 2px 57px;
+}
+
+.red-man-nft table {
+  background: #eeeeee;
+  border-radius: 15px;
+  padding: 2px 57px;
+}
+
+.green-nft table {
+  background: #eeeeee;
+  border-radius: 15px;
+  padding: 2px 57px;
 }
