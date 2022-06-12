@@ -189,26 +189,146 @@ nav a:last-child {
   padding-top: 40px;
 }
 
-.purple-man-nft table {
+.purple-man-nft {
   background: #eeeeee;
   border-radius: 15px;
-  padding: 2px 57px;
 }
 
-.beige-nft table {
-  background: #eeeeee;
-  border-radius: 15px;
-  padding: 2px 57px;
+.purple-man-nft p:first-child {
+  color: #ff8139;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
 }
 
-.red-man-nft table {
-  background: #eeeeee;
-  border-radius: 15px;
-  padding: 2px 57px;
+.purple-man-nft span {
+  color: #777777;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: right;
+  text-transform: uppercase;
 }
 
-.green-nft table {
+.purple-man-nft p:nth-child(2) {
+  color: #111111;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.purple-man-nft p:last-child {
+  color: #777777;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.beige-nft {
   background: #eeeeee;
   border-radius: 15px;
-  padding: 2px 57px;
+}
+
+.beige-nft p:first-child {
+  color: #ff8139;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.beige-nft span {
+  color: #777777;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.beige-nft p:nth-child(2) {
+  color: #111111;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.beige-nft p:last-child {
+  color: #777777;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.red-man-nft {
+  background: #eeeeee;
+  border-radius: 15px;
+}
+
+.red-man-nft p:first-child {
+  color: #ff8139;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.red-man-nft span {
+  color: #777777;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.red-man-nft p:nth-child(2) {
+  color: #111111;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.red-man-nft p:last-child {
+  color: #777777;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.green-nft {
+  background: #eeeeee;
+  border-radius: 15px;
+}
+
+.green-nft p:first-child {
+  color: #ff8139;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.green-nft span {
+  color: #777777;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.green-nft p:nth-child(2) {
+  color: #111111;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.green-nft p:last-child {
+  color: #777777;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
 }
