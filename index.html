@@ -18,7 +18,13 @@
           <a href="#">Launch</a>
           <a href="#">Sigh Up</a>
         </nav>
+        <button class="only-mobile">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
       </header>
+
       <main>
         <div class="nft-top">
           <div>
@@ -27,19 +33,21 @@
               An NFT like <br />
               no other
             </h1>
-            <p class="neveikia">
+            <p class="nft-sign">
               Don't miss out on the release of our new NFT. Sign up<br />
               below to receive updates when we go live.
             </p>
             <button>Sing up</button>
           </div>
-          <img src="assets/graphic.png" alt="graphic img" />
+          <div class="mobile-nft-img">
+            <img src="assets/graphic.png" alt="graphic img" />
+          </div>
         </div>
         <div class="free-nft">
           <h3>FREE NFT for early birds</h3>
           <p>Sign up today and you'll get a free NFT when we launch.</p>
         </div>
-        <div>
+        <div class="partners">
           <img
             class="logo1"
             src="assets/companies/1.svg"
@@ -66,7 +74,7 @@
             alt="droplet company logo"
           />
         </div>
-        <div>
+        <div class="super-rare-container">
           <div class="super-rare">
             <h3>LE Super Rare Auction</h3>
             <p>
@@ -79,10 +87,15 @@
                 <div>
                   <p>Gloop series<span>top bid</span></p>
                   <p>
-                    Purple Man <img src="assets/eth.svg" alt="etf logo" />2.99
-                    ETH
+                    Purple Man
+                    <span
+                      ><img src="assets/eth.svg" alt="etf logo" /><b
+                        class="repair"
+                        >2.99 ETH</b
+                      ></span
+                    >
                   </p>
-                  <p>#12983 1 day left</p>
+                  <p>#12983 <span>1 day left</span></p>
                 </div>
               </div>
               <div class="beige-nft">
@@ -90,9 +103,15 @@
                 <div>
                   <p>Gloop series<span>top bid</span></p>
                   <p>
-                    Beige <img src="assets/eth.svg" alt="etf logo" />2.99 ETH
+                    Beige
+                    <span
+                      ><img src="assets/eth.svg" alt="etf logo" /><b
+                        class="repair"
+                        >2.99 ETH</b
+                      ></span
+                    >
                   </p>
-                  <p>#12983 1 day left</p>
+                  <p>#12983 <span>1 day left</span></p>
                 </div>
               </div>
               <div class="red-man-nft">
@@ -100,9 +119,15 @@
                 <div>
                   <p>Gloop series<span>top bid</span></p>
                   <p>
-                    Red Man <img src="assets/eth.svg" alt="etf logo" />2.99 ETH
+                    Red Man
+                    <span
+                      ><img src="assets/eth.svg" alt="etf logo" /><b
+                        class="repair"
+                        >2.99 ETH</b
+                      ></span
+                    >
                   </p>
-                  <p>#12983 1 day left</p>
+                  <p>#12983 <span>1 day left</span></p>
                 </div>
               </div>
               <div class="green-nft">
@@ -110,9 +135,15 @@
                 <div>
                   <p>Gloop series<span>top bid</span></p>
                   <p>
-                    Green <img src="assets/eth.svg" alt="etf logo" />2.99 ETH
+                    Green
+                    <span
+                      ><img src="assets/eth.svg" alt="etf logo" /><b
+                        class="repair"
+                        >2.99 ETH</b
+                      ></span
+                    >
                   </p>
-                  <p>#12983 1 day left</p>
+                  <p>#12983 <span>1 day left</span></p>
                 </div>
               </div>
             </div>
@@ -120,16 +151,18 @@
           <!-- Linija -->
           <div class="line">
             <div class="nft-down">
-              <div>
+              <div class="nft-down-c">
                 <p>Launching soon</p>
                 <h3>An NFT like no other</h3>
-                <p class="neveikia">
+                <p class="nft-sign">
                   Don't miss out on the release of our new NFT. Sign up<br />
                   below to receive updates when we go live.
                 </p>
-                <button>Sing up</button>
+                <button>Sign up</button>
               </div>
-              <img src="assets/upsell-footer-image.svg" alt="graphic img" />
+              <div class="nft-down-p">
+                <img src="assets/upsell-footer-image.svg" alt="graphic img" />
+              </div>
             </div>
             <!-- Linija -->
           </div>
@@ -139,36 +172,47 @@
         <div class="footer-logo">
           <img src="assets/logo.svg" alt="nftlanding logo" />
           <p>Exclusive NFT Collection</p>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-tiktok"></i>
+          <div>
+          <img src="assets/social/facebook.svg" alt="facebook log"  width="18px" height="18px" hspace="5"></img>
+          <img src="assets/social/twitter.svg" alt="twitter logo" width="18px" height="18px" hspace="5"></img>
+          <img src="assets/social/instagram.svg" alt="instagram logo" width="18px" height="18px" hspace="5"></img>
+          <img src="assets/social/tiktok.svg" alt="tik tik logo" width="18px" height="18px" hspace="5"></img>
+        </div>
         </div>
         <div class="footer-meniu">
+          <div>
           <ul>
             <h3>About</h3>
             <li><a href="#">About</a></li>
             <li><a href="#">Terms</a></li>
             <li><a href="#">Legal</a></li>
           </ul>
-          <ul>
+        </div>
+          <div>
+          <ul class="meniu-nft">
             <h3>Nft</h3>
             <li><a href="#">OpenSea</a></li>
             <li><a href="#">Maker</a></li>
             <li><a href="#">Learn</a></li>
           </ul>
+        </div>
+        
+          <div>
           <ul>
             <h3>Contact</h3>
             <li><a href="#">Press</a></li>
             <li><a href="#">Support</a></li>
           </ul>
-          <ul>
+        </div>
+        <div>
+          <ul class="meniu-social">
             <h3>Social</h3>
             <li><a href="#">Twitter</a></li>
             <li><a href="#">Instagram</a></li>
           </ul>
         </div>
-        <div class="tooter-bottom">
+        </div>
+        <div class="footer-bottom">
           <p>&copy; Copyright 2022 NFTlanding</p>
           <p>Launching August 2022</p>
         </div>
